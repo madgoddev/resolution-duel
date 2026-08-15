@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+.pytest_cache/
+.gltest_cache/
+.artifacts/
+__pycache__/
+*.py[cod]
+deploy/deployScript.compiled.js
+*.log

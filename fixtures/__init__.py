@@ -1,0 +1,1 @@
+"""ResolutionDuel deterministic test fixtures."""

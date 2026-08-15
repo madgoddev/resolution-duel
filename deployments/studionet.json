@@ -1,0 +1,47 @@
+{
+  "schema": "resolutionduel/deployment-record/v1",
+  "contract": "ResolutionDuel",
+  "network": "StudioNet",
+  "chain_id": 61999,
+  "rpc_host": "studio.genlayer.com",
+  "status": "FINALIZED",
+  "verified_at_utc": "2026-08-12T19:15:49Z",
+  "deployer_address": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331",
+  "contract_address": "0xB0f57e58B52e71Fc2F2eEBE875f619a1e31AC08b",
+  "source_sha256": "AC3B1069E97B88772DACDD5AD428946A173C234C649D61F1521299880FBAF9CE",
+  "source_bytes": 33067,
+  "deployed_source_sha256": "AC3B1069E97B88772DACDD5AD428946A173C234C649D61F1521299880FBAF9CE",
+  "deployed_source_matches_local": true,
+  "policy_version": 1,
+  "deployment": {
+    "transaction_hash": "0xf93e5e69a012777a91ba4130b4153872b70213b0939da85ec0a8248ebf03481d",
+    "finality": "FINALIZED",
+    "consensus": "AGREE",
+    "execution": "FINISHED_WITH_RETURN"
+  },
+  "smoke": {
+    "status": "PASSED",
+    "registration": {
+      "transaction_hash": "0x8e87b3c48a5628c9267d52b86c65c731c17b5bb024bf0bfdd29ebe1c1110051d",
+      "finality": "FINALIZED",
+      "consensus": "AGREE",
+      "execution": "FINISHED_WITH_RETURN"
+    },
+    "audit": {
+      "transaction_hash": "0xed429fd61cb9874adc024d1c00362b86e0d4df57e15d9c46a95e98a69253c412",
+      "finality": "FINALIZED",
+      "consensus": "AGREE",
+      "execution": "FINISHED_WITH_RETURN"
+    },
+    "id": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331:STUDIO-RULE-DUEL-20260812",
+    "fingerprint": "sha256:c8f4445464e0bf95515460cdf113b494ca708b753ec8842342869419ede8cca5",
+    "decision": "PROPOSAL_WINS",
+    "settlement_outcome": "YES",
+    "proposal_defect_mask": 0,
+    "challenge_defect_mask": 1,
+    "uncertainty_mask": 0,
+    "exact_gate": true,
+    "altered_gate": false,
+    "read_variant": "LATEST_FINAL"
+  }
+}
